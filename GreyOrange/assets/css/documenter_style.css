@@ -24,6 +24,7 @@ html {
 	-webkit-text-size-adjust:none;
 	color:#6F6F6F;
 	background-color:#efefef;
+	scroll-behavior: smooth;
 }
 body{
 	min-height:100%;
@@ -44,7 +45,7 @@ li{
 }
 li.placeholder{
 	height:70px;
-	width:100%;
+	width:30%;
 	font-size:16px;
 }
 hr { 
@@ -95,8 +96,8 @@ strong{
 #documenter_content{
 	position:absolute;
 	right:18px;
-	left: 80px;
-	padding-left:1px;
+	left:130px;
+	padding-left:10px;
 	padding-bottom:800px;
 	min-height:100%;
 	height:auto;
@@ -159,7 +160,7 @@ noscript p{
 	height:20%;
 	max-height:200px;
 	min-height:70px;
-	width:120px;
+	width:200px;
 	background-position:center center;
 	background-repeat:no-repeat;
 }

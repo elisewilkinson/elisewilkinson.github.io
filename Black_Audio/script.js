@@ -81,7 +81,7 @@ function createTrackItem(index,name,duration){
 	}, 
     {
 	 name:"Artist 11 - audio 11",
-      file:"https://archive.org/download/Elton_John_Im_Still_Standing/Elton_John_Im_Still_Standing.mp4",
+      file:"https://englishsongs.wapkiz.com/filedownload/2482183/Elton-John-I-m-Still-Standing-(englishsongs.wapkiz.com).mp3",
       duration:"02:58"
     }
   ]

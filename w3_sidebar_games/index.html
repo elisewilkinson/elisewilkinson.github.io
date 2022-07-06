@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Our Games W3.CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/stylecolorchange.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+            // Store hash
+            var hash = this.hash;
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function() {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+    </script>
+    <style>
+      #section1 {
+        height: 670px;
+      }
+
+      #section2 {
+        height: 670px;
+      }
+
+      #section3 {
+        height: 670px;
+      }
+
+      #section4 {
+        height: 670px;
+      }
+
+      #section5 {
+        height: 670px;
+      }
+
+      #section6 {
+        height: 670px;
+      }
+
+      #section7 {
+        height: 670px;
+      }
+
+      #section8 {
+        height: 670px;
+      }
+
+      #section9 {
+        height: 670px;
+      }
+
+      #section10 {
+        height: 670px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-light-grey w3-bar-block w3-border-right" style="width:13%">
+      <img src="img_snowtops.jpg" alt="Snow" style="width:100%">
+      <a href="#section1" class="w3-bar-item w3-button w3-orange">Game 1</a>
+      <a href="#section2" class="w3-bar-item w3-button w3-blue">Game 2</a>
+      <a href="#section3" class="w3-bar-item w3-button w3-grad">Game 3</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-green">Game 4</a>
+      <a href="#section5" class="w3-bar-item w3-button w3-pink">Game 5</a>
+      <a href="#section6" class="w3-bar-item w3-button w3-grey">Game 6</a>
+      <a href="#section7" class="w3-bar-item w3-button">Projects <span class="w3-tag w3-red w3-right w3-margin-right">8</span>
+      </a>
+      <a href="#section8" class="w3-bar-item w3-button w3-amber">Game 2</a>
+      <a href="#section9" class="w3-bar-item w3-button w3-aqua">Game 3</a>
+      <a href="#section10" class="w3-bar-item w3-button w3-blue">Game 4</a>
+      <a href="#section11" class="w3-bar-item w3-button w3-brow">Game 6</a>
+      <a href="#section12" class="w3-bar-item w3-button w3-cyan">Game 2</a>
+      <a href="#section13" class="w3-bar-item w3-button w3-blue">Game 3</a>
+      <a href="#section14" class="w3-bar-item w3-button w3-green">Game 4</a>
+      <a href="#section16" class="w3-bar-item w3-button w3-indigo">Game 6</a>
+      <a href="#section17" class="w3-bar-item w3-button w3-khaki">Game 2</a>
+      <a href="#section18" class="w3-bar-item w3-button w3-lime">Game 3</a>
+      <a href="#section19" class="w3-bar-item w3-button w3-yellow">Game 4</a>
+      <a href="#section20" class="w3-bar-item w3-button w3-blue-grey">Game 5</a>
+      <a href="#section6" class="w3-bar-item w3-button w3-pink">Game 6</a>
+      <a href="#section2" class="w3-bar-item w3-button w3-purple">Game 2</a>
+      <a href="#section3" class="w3-bar-item w3-button w3-deep">Game 3</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-red">Game 4</a>
+      <a href="#section5" class="w3-bar-item w3-button w3-sand">Game 5</a>
+      <a href="#section6" class="w3-bar-item w3-button w3-teal">Game 6</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-light-green">Game 4</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-light-blue">Game 4</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-lime">Game 4</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-light-blue">Game 4</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-lime">Game 4</a>
+      <a href="#section7" class="w3-bar-item w3-button w3-light-blue">Game 4</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-deep-orange">Game 4</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-deep-purple">Game 4</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-sand">Game 4</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-light-green">Game 4</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-dark-green">Game 4</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-pale-red">Game 4</a>
+      <a href="#section4" class="w3-bar-item w3-button w3-pale-blue">Game 4</a>
+      <a href="#section7" class="w3-bar-item w3-button w3-pale-yellow">Game 4</a>
+    </div>
+    <!-- Page Content -->
+    <div style="margin-left:16%">
+      <div class="w3-container w3-light-grey">
+        <h1>Our Games</h1>
+      </div>
+      <div class="main" id="section1">
+        <object width="1024px" height="670px">
+          <param name="salign" value="l">
+          <param name="align" value="l">
+          <param name="movie" value="../games/doraemon_jigsaw.swf">
+          <param name="allowScriptAccess" value="always">
+          <param name="allowFullScreen" value="true">
+          <param name="loop" value="false">
+          <param name="menu" value="true">
+          <param name="quality" value="high">
+          <param name="wmode" value="window">
+          </embed>
+        </object>
+      </div>
+      <div class="main" id="section2">
+        <object width="1024px" height="670px">
+          <param name="salign" value="l">
+          <param name="align" value="l">
+           <param name="movie" value="../games/high_school_fashion.swf">
+          <param name="allowScriptAccess" value="always">
+          <param name="allowFullScreen" value="true">
+          <param name="loop" value="false">
+          <param name="menu" value="true">
+          <param name="quality" value="high">
+          <param name="wmode" value="window">
+          </embed>
+        </object>
+		 </div>
+		<div class="main" id="section3">
+        <object width="1024px" height="670px">
+          <param name="salign" value="l">
+          <param name="align" value="l">
+          <param name="movie" value="../games/funny_classroom_3.swf">
+          <param name="allowScriptAccess" value="always">
+          <param name="allowFullScreen" value="true">
+          <param name="loop" value="false">
+          <param name="menu" value="true">
+          <param name="quality" value="high">
+          <param name="wmode" value="window">
+          </embed>
+        </object>
+      </div>
+      <div class="main" id="section4">
+        <object width="1024px" height="670px">
+          <param name="salign" value="l">
+          <param name="align" value="l">
+           <param name="movie" value="../games/egg.swf"><param name="movie" value="games/line_rider2.swf">
+          <param name="allowScriptAccess" value="always">
+          <param name="allowFullScreen" value="true">
+          <param name="loop" value="false">
+          <param name="menu" value="true">
+          <param name="quality" value="high">
+          <param name="wmode" value="window">
+          </embed>
+        </object>
+		 </div>
+		<div class="main" id="section5">
+        <object width="1024px" height="670px">
+          <param name="salign" value="l">
+          <param name="align" value="l">
+          <param name="movie" value="../games/paint_houses.swf">
+          <param name="allowScriptAccess" value="always">
+          <param name="allowFullScreen" value="true">
+          <param name="loop" value="false">
+          <param name="menu" value="true">
+          <param name="quality" value="high">
+          <param name="wmode" value="window">
+          </embed>
+        </object>
+      </div>
+      <div class="main" id="section6">
+        <object width="1024px" height="670px">
+          <param name="salign" value="l">
+          <param name="align" value="l">
+           <param name="movie" value="../games/jigzaw_chloe.swf">
+          <param name="allowScriptAccess" value="always">
+          <param name="allowFullScreen" value="true">
+          <param name="loop" value="false">
+          <param name="menu" value="true">
+          <param name="quality" value="high">
+          <param name="wmode" value="window">
+          </embed>
+        </object>
+		 </div>
+		<div class="main" id="section7">
+        <object width="1024px" height="670px">
+          <param name="salign" value="l">
+          <param name="align" value="l">
+          <param name="movie" value="../games/jigzaw_Charlotte.swf">
+          <param name="allowScriptAccess" value="always">
+          <param name="allowFullScreen" value="true">
+          <param name="loop" value="false">
+          <param name="menu" value="true">
+          <param name="quality" value="high">
+          <param name="wmode" value="window">
+          </embed>
+        </object>
+      </div>
+      <div class="main" id="section8">
+        <object width="1024px" height="670px">
+          <param name="salign" value="l">
+          <param name="align" value="l">
+          <param name="movie" value="../games/jigzawstranger.swf">
+          <param name="allowScriptAccess" value="always">
+          <param name="allowFullScreen" value="true">
+          <param name="loop" value="false">
+          <param name="menu" value="true">
+          <param name="quality" value="high">
+          <param name="wmode" value="window">
+          </embed>
+        </object>
+		 </div>
+		 <div class="main" id="section9">
+        <object width="1024px" height="670px">
+          <param name="salign" value="l">
+          <param name="align" value="l">
+          <param name="movie" value="../games/jigzaw_Stranger_Things.swf">
+          <param name="allowScriptAccess" value="always">
+          <param name="allowFullScreen" value="true">
+          <param name="loop" value="false">
+          <param name="menu" value="true">
+          <param name="quality" value="high">
+          <param name="wmode" value="window">
+          </embed>
+        </object>
+		 </div>
+		 <div class="main" id="section10">
+        <object width="1024px" height="670px">
+          <param name="salign" value="l">
+          <param name="align" value="l">
+           <param name="movie" value="../games/draw.swf">
+          <param name="allowScriptAccess" value="always">
+          <param name="allowFullScreen" value="true">
+          <param name="loop" value="false">
+          <param name="menu" value="true">
+          <param name="quality" value="high">
+          <param name="wmode" value="window">
+          </embed>
+        </object>
+		 </div>
+		 <div class="main" id="section11">
+        <object width="1024px" height="670px">
+          <param name="salign" value="l">
+          <param name="align" value="l">
+          <param name="movie" value="../games/jigzawstranger.swf">
+          <param name="allowScriptAccess" value="always">
+          <param name="allowFullScreen" value="true">
+          <param name="loop" value="false">
+          <param name="menu" value="true">
+          <param name="quality" value="high">
+          <param name="wmode" value="window">
+          </embed>
+        </object>
+		 </div>
+		 <div class="main" id="section12">
+        <object width="1024px" height="670px">
+          <param name="salign" value="l">
+          <param name="align" value="l">
+         <param name="movie" value="../games/jigzawstranger.swf">
+          <param name="allowScriptAccess" value="always">
+          <param name="allowFullScreen" value="true">
+          <param name="loop" value="false">
+          <param name="menu" value="true">
+          <param name="quality" value="high">
+          <param name="wmode" value="window">
+          </embed>
+        </object>
+		 </div>
+		 <div class="main" id="section13">
+		 <iframe src="https://wilkinsonwebsitemicrosoft.on.drv.tw/TikTok/" width="1024px" height="670px""></iframe>
+       </div>
+    
+      <div class="main" id="section14">
+        <p>Notes</p>
+      </div>
+      <div class="w3-container">
+        <h2>My Notes (For remembering how i did it)</h2>
+        <p>The sidebar width is set with "style="width:13%".</p>
+        <p>The left margin of the page content is set to the same value. (Changed it to 14 for a slight gap)</p>
+      </div>
+      <div style="margin-left:25%">
+        <div class="w3-container">
+          <h2>Sidebar</h2>
+          <p>Put any element inside the sidebar.</p>
+        </div>
+        <div style="margin-left:15%">
+          <a href="#section1" class="w3-bar-item w3-button w3-orange">Game 1</a>
+          <a href="#section2" class="w3-bar-item w3-button w3-blue">Game 2</a>
+          <a href="#section3" class="w3-bar-item w3-button w3-grad">Game 3</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-green">Game 4</a>
+          <a href="#section5" class="w3-bar-item w3-button w3-pink">Game 5</a>
+          <a href="#section6" class="w3-bar-item w3-button w3-grey">Game 6</a>
+          <a href="#section8" class="w3-bar-item w3-button w3-amber">Game 2</a>
+          <a href="#section9" class="w3-bar-item w3-button w3-aqua">Game 3</a>
+          <a href="#section10" class="w3-bar-item w3-button w3-blue">Game 4</a>
+          <a href="#section11" class="w3-bar-item w3-button w3-brow">Game 6</a>
+          <a href="#section12" class="w3-bar-item w3-button w3-cyan">Game 2</a>
+          <a href="#section13" class="w3-bar-item w3-button w3-blue">Game 3</a>
+          <a href="#section14" class="w3-bar-item w3-button w3-green">Game 4</a>
+          <a href="#section16" class="w3-bar-item w3-button w3-indigo">Game 6</a>
+          <a href="#section17" class="w3-bar-item w3-button w3-khaki">Game 2</a>
+          <a href="#section18" class="w3-bar-item w3-button w3-lime">Game 3</a>
+          <a href="#section19" class="w3-bar-item w3-button w3-yellow">Game 4</a>
+          <a href="#section20" class="w3-bar-item w3-button w3-blue-grey">Game 5</a>
+          <a href="#section6" class="w3-bar-item w3-button w3-pink">Game 6</a>
+          <a href="#section2" class="w3-bar-item w3-button w3-purple">Game 2</a>
+          <a href="#section3" class="w3-bar-item w3-button w3-deep">Game 3</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-red">Game 4</a>
+          <a href="#section5" class="w3-bar-item w3-button w3-sand">Game 5</a>
+          <a href="#section6" class="w3-bar-item w3-button w3-teal">Game 6</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-light-green">Game 4</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-light-blue">Game 4</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-lime">Game 4</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-light-blue">Game 4</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-lime">Game 4</a>
+          <a href="#section7" class="w3-bar-item w3-button w3-light-blue">Game 4</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-deep-orange">Game 4</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-deep-purple">Game 4</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-sand">Game 4</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-light-green">Game 4</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-dark-green">Game 4</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-pale-red">Game 4</a>
+          <a href="#section4" class="w3-bar-item w3-button w3-pale-blue">Game 4</a>
+          <a href="#section7" class="w3-bar-item w3-button w3-pale-yellow">Game 4</a>
+          <a href="#section6" class="w3-bar-item w3-button w3-pink">Game 6</a>
+          <a href="#section7" class="w3-bar-item w3-button">Projects <span class="w3-tag w3-red w3-right w3-margin-right">9</span>
+          </a>
+        </div>
+  </body>
+</html>
+
+
+

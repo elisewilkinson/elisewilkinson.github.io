@@ -373,7 +373,7 @@
           <h2>Sidebar</h2>
           <p>Put any element inside the sidebar.</p>
         </div>
-        <div style="margin-left:15%">
+	  <div class="w3-container" id="section19">
           <a href="#section1" class="w3-bar-item w3-button w3-orange">Halloween</a>
           <a href="#section2" class="w3-bar-item w3-button w3-blue">High School</a>
           <a href="#section3" class="w3-bar-item w3-button w3-grad">Funny Classroom</a>
@@ -415,8 +415,15 @@
           <a href="#section7" class="w3-bar-item w3-button w3-pale-yellow w3-padding-small"> 4</a>
           <a href="#section6" class="w3-bar-item w3-button w3-pink w3-padding-small"> 6</a>
           <a href="#section7" class="w3-bar-item w3-button w3-light-blue w3-padding-small">Button</button>
+	  <button onclick="playAudio()" type="button">Play Audio</button>
+          <button onclick="pauseAudio()" type="button">Pause Audio</button> 
           </a>
         </div>
+<audio id="myAudio">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
   </body>
 </html>
 

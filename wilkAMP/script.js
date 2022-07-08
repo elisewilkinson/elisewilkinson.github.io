@@ -270,9 +270,3 @@ function createTrackItem(index,name,duration){
       volUp.style.display = "block"
     }
   }
-
-
-  
-      <source src="music/Lie_1080p.mp3" data-track-number="3" />
-      <source src="music/Dj Werd -Teenage Dream.mp3" data-track-number="4" />
-      <source src="music/Dj Werd-(Bangin_Cutout).mp3" data-track-number="5" />

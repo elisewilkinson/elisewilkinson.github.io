@@ -31,22 +31,22 @@ function createTrackItem(index,name,duration){
   var listAudio = [
     {
       name:"Artist 1 - audio 1",
-      file:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      file:"music/Stranger Things Theme (Felix Cartal's After Dark Remix).mp3",
       duration:"08:47"
     },
     {
       name:"Artist 2 - audio 2",
-      file:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      file:"music/Harry Belafonte - Jump in the Line27.mp3",
       duration:"05:53"
     },
     {
       name:"Artist 3 - audio 3",
-      file:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      file:"music/Lie_1080p.mp3",
       duration:"05:02"
 	},
     {
 	 name:"Artist 4 - audio 4",
-      file:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      file:"music/Dj Werd-(Bangin_Cutout).mp3",
       duration:"06:29"
 	}, 
     {
@@ -270,3 +270,9 @@ function createTrackItem(index,name,duration){
       volUp.style.display = "block"
     }
   }
+
+
+  
+      <source src="music/Lie_1080p.mp3" data-track-number="3" />
+      <source src="music/Dj Werd -Teenage Dream.mp3" data-track-number="4" />
+      <source src="music/Dj Werd-(Bangin_Cutout).mp3" data-track-number="5" />

@@ -2,82 +2,209 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - HTML Audio Player</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="css/stylecolorchange.css">
+  <title>CodePen - HTML5 Audio Player with Playlist</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/stylecolorchange.css">
+ <style>
+ img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.imgA1 {
+  z-index: 1;
+}
+.controls-box {
+  z-index: 3;
+}
+</style>
 </head>
 <body>
+<img class="imgA1" src="images/wilkAMP.png">
 <!-- partial:index.partial.html -->
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a062562745.js" crossorigin="anonymous"></script>
-    <title>MP3 Player</title>
-    <link rel=stylesheet href="style.css" media=all> 
-  </head>
-  <body>
+<div class="container">
 
+      <audio id="audio" preload="none" tabindex="0">
+    	<source src="https://wilkinsonwebsitemicrosoft.on.drv.tw/music/Stranger Things Theme (Felix Cartal's After Dark Remix).mp3" type="audio/mpeg" data-track-number="1" />
+    	<source src="https://wilkinsonwebsitemicrosoft.on.drv.tw/music/Harry Belafonte - Jump in the Line27.mp3" data-track-number="2" />
+      <source src="https://wilkinsonwebsitemicrosoft.on.drv.tw/music/Lie_1080p.mp3" data-track-number="3" />
+      <source src="https://wilkinsonwebsitemicrosoft.on.drv.tw/music/Dj Werd -Teenage Dream.mp3" data-track-number="4" />
+      <source src="https://wilkinsonwebsitemicrosoft.on.drv.tw/music/Dj Werd-(Bangin_Cutout).mp3" data-track-number="5" />
+    	Your browser does not support HTML5 audio.
+    	</audio>
+  <div class="player">
 
-<audio id="myAudio" ontimeupdate="onTimeUpdate()">
-  <!-- <source src="audio.ogg" type="audio/ogg"> -->
-  <source id="source-audio" src="" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+    <div class="large-toggle-btn">
+      <i class="large-play-btn"><span class="screen-reader-text">Large toggle button</span></i>
+    </div>
+    <!-- /.play-box -->
 
-<div class="player-ctn">
-  <div class="infos-ctn">
-    <div class="timer">00:00</div>
-    <div class="title"></div>
-    <div class="duration">00:00</div>
+    <div class="info-box">
+      <div class="track-info-box">
+        <div class="track-title-text"></div>
+        <div class="audio-time">
+          <span class="current-time">00:00</span> /
+          <span class="duration">00:00</span>
+        </div>
+      </div>
+      <!-- /.info-box -->
+
+      <div class="progress-box">
+        <div class="progress-cell">
+          <div class="progress">
+            <div class="progress-buffer"></div>
+            <div class="progress-indicator"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.progress-box -->
+
+    <div class="controls-box">
+      <i class="previous-track-btn disabled"><span class="screen-reader-text">Previous track button</span></i>
+      <i class="next-track-btn"><span class="screen-reader-text">Next track button</span></i>
+    </div>
+    <!-- /.controls-box -->
+
   </div>
-  <div id="myProgress">
-    <div id="myBar"></div>
+  <!-- /.player -->
+
+   <div class="play-list">
+
+    <div class="play-list-row" data-track-row="1">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+	  
+      <div class="track-number">
+        1.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="1">Stranger Things Theme (After Dark Remix)</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="2">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        2.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="2">Harry Belafonte - Jump in the Line</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="3">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        3.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="3">Lie</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="4">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        4.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="4">Dj Werd -Teenage Dream</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="5">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        5.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="5">Dj Werd -(Bangin Cutout)</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="6">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        6.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="6">Mike Doughty - American Car</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="7">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        7.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="7">G. Love &amp; Special Sauce - Dreamin'</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="8">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        8.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="8">Guster - Amsterdam</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="9">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        9.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="9">O.A.R. - About Mr. Brown</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="10">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        10.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="10">My Morning Jacket - Phone Went West</a>
+      </div>
+    </div>
+
   </div>
-  <div class="btn-ctn">
-     <div class="btn-action first-btn" onclick="previous()">
-        <div id="btn-faws-back">
-          <i class='fas fa-step-backward'></i>
-        </div>
-     </div>
-     <div class="btn-action" onclick="rewind()">
-        <div id="btn-faws-rewind">
-          <i class='fas fa-backward'></i>
-        </div>
-     </div>
-     <div class="btn-action" onclick="toggleAudio()">
-        <div id="btn-faws-play-pause">
-          <i class='fas fa-play' id="icon-play"></i>
-          <i class='fas fa-pause' id="icon-pause" style="display: none"></i>
-        </div>
-     </div>
-     <div class="btn-play" onclick="forward()">
-        <div id="btn-faws-forward">
-          <i class='fas fa-forward'></i>
-        </div>
-     </div>
-     <div class="btn-action" onclick="next()">
-        <div id="btn-faws-next">
-          <i class='fas fa-step-forward'></i>
-        </div>
-     </div>
-     <div class="btn-mute" id="toggleMute" onclick="toggleMute()">
-        <div id="btn-faws-volume">
-          <i id="icon-vol-up" class='fas fa-volume-up'></i>
-          <i id="icon-vol-mute" class='fas fa-volume-mute' style="display: none"></i>
-        </div>
-     </div>
-  </div>
-  <div class="playlist-ctn"></div>
+
+  <div>Music from One Drive<a href="https://wilkinson.w3spaces.com" target="_blank">wilkinson.w3spaces.com</a></div>
 </div>
-<script src=app.js></script>
-
-  </body>
-</html>
 <!-- partial -->
-  <script  src="script.js"></script>
+  <script  src="./script.js"></script>
 
 </body>
 </html>
+
+
+ <!--      <div class="container2">
+<img class="imgA1" src="images/wilkAMP.png">
+  <button class="btn">Button</button>  
+<!-- <img src="images/wilkAMP.png" src="images/wilkAMP.png" width="490" height="484">   -->
+ <!--  <div class="player">
+  <div class="large-toggle-btn">
+      <i class="large-play-btn"><span class="screen-reader-text">Large toggle button</span></i> -->
+ -->
+

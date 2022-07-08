@@ -5,36 +5,37 @@
   <title>wilkAMP</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="css/stylecolorchange.css">
- <style>
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
+<style>
+.ampcontainer {
+ position: absolute;
+  top: 5%;
+  left: 30%;
+  width: 40%;
+  text-align: center; 
 }
 
-.container img {
+.ampcontainer img {
   width: 100%;
   height: auto;
 }
 
-.container .btn {
+.ampcontainer .btn {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 74%;
+  left: 10%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
+  background-color: transparent;
+  color: black;
+  font-size: 25px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
 }
 
-.container .btn:hover {
-  background-color: black;
+.ampcontainer .btn:hover {
+  background-color: transparent;
 }
 
 img {
@@ -49,10 +50,11 @@ img {
 .controls-box {
   z-index: 3;
 }
+
+
 </style>
 </head>
 <body>
-<img class="imgA1" src="images/wilkAMP.png">
 <!-- partial:index.partial.html -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -120,9 +122,9 @@ img {
 <h2>Button on Image</h2>
 <p>Add a button to an image:</p>
 
-<div class="container">
-  <img src="images/wilkAMP.png" alt="Snow" style="width:100%">
-  <button class="btn" onclick="toggleAudio()">Button</button>
+<div class="ampcontainer">
+  <img src="https://elisewilkinson.github.io/wilkAMP/images/wilkAMP.png" alt="Snow" style="width:100%">
+ <button class="btn" onclick="toggleAudio()" span style='font-size:50px;'>&#9199;</span>
 </div>
 <script src=app.js></script>
 

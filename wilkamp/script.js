@@ -8,7 +8,7 @@ function ()
         }, {
             artist: '',
             title: 'Frida-Theres Something Going on',
-            mp3: 'https://wilkinsonwilkinsonwilkinson.on.drv.tw/music/fridaiknowtheressomethinggoingon.mp3'
+            mp3: 'https://drive.google.com/uc?id=1gZuvMB8s8UT5BkWUcQh91g5BdOdVbYWX&export=download'
 		}, { 
 			 artist: '',
             title:'SunshineLiveSets_1',

@@ -80,7 +80,7 @@ function createTrackItem(index,name,duration){
       duration:"07:00"
 	}, 
     {
-	 name:"Artist 11 - audio 11",
+	 name:"11 - I'm still standing",
       file:"https://englishsongs.wapkiz.com/filedownload/2482183/Elton-John-I-m-Still-Standing-(englishsongs.wapkiz.com).mp3",
       duration:"02:58"
     }

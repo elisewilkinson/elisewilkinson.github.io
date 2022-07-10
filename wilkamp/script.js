@@ -4,51 +4,51 @@ function ()
   var playlist = [{
             artist: '',
             title:'DJWerd(Bangin_Cutout)',
-            mp3: 'https://wilkinsonwilkinsonwilkinson.on.drv.tw/music/djwerd(bangin_cutout).mp3'
+            mp3: 'https://drive.google.com/uc?id=1gZuvMB8s8UT5BkWUcQh91g5BdOdVbYWX&export=download'
         }, {
             artist: '',
             title: 'Frida-Theres Something Going on',
-            mp3: 'https://drive.google.com/uc?id=1gZuvMB8s8UT5BkWUcQh91g5BdOdVbYWX&export=download'
+            mp3: 'https://drive.google.com/uc?id=1xT5gU66AzfIaYUZL38jeIXintTTKEZLT&export=download'
 		}, { 
 			 artist: '',
             title:'SunshineLiveSets_1',
-            mp3: 'https://wilkinsonwilkinsonwilkinson.on.drv.tw/music/sunshineliveradiotwitchgooglechrome2022.mp3'
+            mp3: 'https://drive.google.com/uc?id=1pkXjbDv0aGH-ktDmdmhEW3acu6Iphki1&export=download'
         }, {
             artist: '',
             title:"Stranger Things Remix",
-            mp3: 'https://wilkinsonwilkinsonwilkinson.on.drv.tw/music/strangerthingsremix.mp3'
+            mp3: 'https://drive.google.com/uc?id=1rnh-bMNA-u4uNVNPBngQP5UBBb1Z7mhE&export=download'
 		}, {
 			artist: '',
             title:'DJWerd Teenage Dream',
-            mp3: 'https://wilkinsonwilkinsonwilkinson.on.drv.tw/music/djwerdthinkimpretty.mp3'
+            mp3: 'https://drive.google.com/uc?id=1NC1vCU03hcYWsrkq-6IZmiNoLupRRB5a&export=download'
         }, {
             artist: '',
             title: 'DJWerd Dont Stop',
-            mp3: 'https://wilkinsonwilkinsonwilkinson.on.drv.tw/music/djwerddontstop.mp3'
+            mp3: 'https://drive.google.com/uc?id=1t0OUvozRbN0GdPP74aDj2RfRle3bW8Qo&export=download'
 		}, { 
 			 artist: '',
             title: 'Sunset Bros Im Feeling it (In The Air)',
-            mp3: 'https://wilkinsonwilkinsonwilkinson.on.drv.tw/music/sunsetbrosxmarkmccabe-imfeelingit[intheair](officiallyricvideo)_720p.mp3'
+            mp3: 'https://drive.google.com/uc?id=1ZJGQZ1Xvy63uN9qzDWLaNwFKuzehgzdN&export=download'
         }, {
 			 artist: '',
             title: 'Cher Turn Back Time',
-            mp3: 'https://wilkinsonwilkinsonwilkinson.on.drv.tw/music/cherturnbacktime.mp3'
+            mp3: 'https://drive.google.com/uc?id=1LGchscc9xNzX2HEHajreqnlMvV7lA8IB&export=download'
 		}, {
             artist: '',
             title: 'Elton John-Im Still Standing',
-            mp3: 'https://wilkinsonwilkinsonwilkinson.on.drv.tw/music/imstillstanding.mp3'
+            mp3: 'https://drive.google.com/uc?id=1XSgojkw4GsC0tkOsE3Qx9ddO9blvNSxX&export=download'
 		}, {
 			artist: '',
             title:'Harry Belafonte Jump In The Line',
-            mp3: 'https://wilkinsonwilkinsonwilkinson.on.drv.tw/music/harrybelafontejumpintheline27.mp3'
+            mp3: 'https://drive.google.com/uc?id=1PNfJWKIm3apv9afl0SMSTEwLt5WYanIF&export=download'
 		}, {	
 			artist: '',
             title:'Calum Scott-Where Are You Now',
-            mp3: 'https://wilkinsonwilkinsonwilkinson.on.drv.tw/music/lostfrequenciesftcalumscott-whereareyounow(officialvideo)_720p.mp3'
+            mp3: 'https://drive.google.com/uc?id=1akJzEbEWuSqd3k_Kb-PbdT56K3KvUL-C&export=download'
         }, {
             artist: '',
             title: 'SoundHelix-10',
-            mp3: 'https://wilkinsonwilkinsonwilkinson.on.drv.tw/music/soundhelixsong10.mp3'
+            mp3: 'https://drive.google.com/uc?id=1MSGgvZf_jlndrS0DnDvhQaTKf4TQ85q-&export=download'
      }];
 
     $.customPlayer = new CustomHTML5Player();

@@ -40,10 +40,10 @@ function makeSound(key)
                 var audio = new Audio("sounds/tom-4.mp3");
                 break;
             case "!":
-                var audio = new Audio("sounds/snare.mp3");
+                var audio = new Audio("sounds/crash.mp3");
                 break;
             case "N":
-                var audio = new Audio("sounds/crash.mp3");
+                var audio = new Audio("sounds/snare.mp3");
                 break;
             case "s":
                 var audio = new Audio("sounds/kick-bass.mp3");

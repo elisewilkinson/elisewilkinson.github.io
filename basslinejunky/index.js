@@ -24,6 +24,12 @@ function makeSound(key)
             case "w":
                 var audio = new Audio("sounds/tom-1.mp3");
                 break;
+	    case "ii":
+                var audio = new Audio("sounds/tom-5.mp3");
+                break;
+	    case "nn":
+                var audio = new Audio("sounds/tom-6.mp3");
+                break;
             case "i":
                 var audio = new Audio("sounds/tom-2.mp3");
                 break;

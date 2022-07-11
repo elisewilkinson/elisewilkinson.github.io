@@ -28,7 +28,7 @@ function makeSound(key)
                 var audio = new Audio("sounds/tom-5.mp3");
                 break;
 	    case "n":
-                var audio = new Audio("sounds/tom-6.mp3");
+                var audio = new Audio("sounds/soundy.mp3");
                 break;
             case "I":
                 var audio = new Audio("sounds/tom-2.mp3");

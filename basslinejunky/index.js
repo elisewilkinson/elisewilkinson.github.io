@@ -24,13 +24,13 @@ function makeSound(key)
             case "w":
                 var audio = new Audio("sounds/tom-1.mp3");
                 break;
-	    case "ii":
+	    case "i":
                 var audio = new Audio("sounds/tom-5.mp3");
                 break;
-	    case "nn":
+	    case "n":
                 var audio = new Audio("sounds/tom-6.mp3");
                 break;
-            case "i":
+            case "I":
                 var audio = new Audio("sounds/tom-2.mp3");
                 break;
             case "l":
@@ -39,10 +39,10 @@ function makeSound(key)
             case "k":
                 var audio = new Audio("sounds/tom-4.mp3");
                 break;
-            case "x":
+            case "!":
                 var audio = new Audio("sounds/snare.mp3");
                 break;
-            case "n":
+            case "N":
                 var audio = new Audio("sounds/crash.mp3");
                 break;
             case "s":

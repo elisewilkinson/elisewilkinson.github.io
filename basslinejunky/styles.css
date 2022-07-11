@@ -33,7 +33,15 @@ footer {
   background-image: url("images/kick.png");
 }
 
+.N {
+  background-image: url("images/kick.png");
+}
+
 .n {
+  background-image: url("images/kick.png");
+}
+
+.! {
   background-image: url("images/kick.png");
 }
 
@@ -45,7 +53,7 @@ footer {
   background-image: url("images/kick.png");
 }
 
-.i {
+.I {
   background-image: url("images/kick.png");
 }
 
@@ -82,6 +90,6 @@ footer {
   width: 150px;
   height: 150px;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   background-color: black;
 }

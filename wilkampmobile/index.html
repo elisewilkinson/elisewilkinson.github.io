@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.imagebtncontainer {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.imagebtncontainer img {
+  width: 100%;
+  height: auto;
+}
+
+.imagebtncontainer .jp-controls {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+</style>
+</head>
+<body style="max-width:400px;margin:16px;border:1px solid #ccc">
+
+<header class="w3-container w3-card-4 w3-theme">
+  <h1></h1>
+</header>
+
+<div class="imagebtncontainer">
+  <img src="https://elisewilkinson.github.io/wilkamp/wilkAMP.png" style="width:100%">
+  <div class="jp-controls">
+				<button class="jp-previous" role="button" tabindex="0"><i class="fa fa-step-backward"></i></button>
+				<button class="jp-play" role="button" onclick="playAudio()" tabindex="0"><i class="fa fa-play-circle-o"></i></button>
+				<button class="jp-next" role="button" tabindex="0"><i class="fa fa-step-forward"></i></button>
+				<button class="jp-stop" role="button" tabindex="0"><i class="fa fa-stop"></i></button>
+			</div>
+  </div>
+
+<div class="jp-controls">
+				<button class="jp-previous" role="button" tabindex="0">previous</button>
+				<button class="jp-play" role="button" tabindex="0">play</button>
+				<button class="jp-next" role="button" tabindex="0">next</button>
+				<button class="jp-stop" role="button" tabindex="0">stop</button>
+			</div>
+
+ <div class="w3-panel">
+<div class="w3-row">
+  <div class="w3-col s3">
+    <img src="https://elisewilkinson.github.io/wilkamp/wilkAMP.png" style="width:100%">
+  </div>
+  <div class="w3-col s9 w3-container">
+    <h3>Frozen</h3>
+    <p>The response to the animations was ridiculous.</p>
+  </div>
+</div>  
+<hr>
+<div class="w3-row">
+  <div class="w3-col s3">
+    <img src="https://elisewilkinson.github.io/wilkamp/wilkAMP.png" style="width:100%">
+  </div>
+  <div class="w3-col s9 w3-container">
+    <h3>The Fault in Our Stars</h3>
+    <p>Touching, gripping and genuinely well made.</p>
+  </div>
+</div>
+<hr>
+<div class="w3-row">
+  <div class="w3-col s3">
+    <img src="https://elisewilkinson.github.io/wilkamp/wilkAMP.png" style="width:100%">
+  </div>
+  <div class="w3-col s9 w3-container">
+    <h3>The Avengers</h3>
+    <p>A huge success for Marvel and Disney.</p>
+  </div>
+</div>
+</div>
+
+<footer class="w3-container w3-theme-l2" style="position:relative">
+  <a class="w3-btn w3-xlarge w3-circle w3-theme-action w3-right" style="position:absolute;top:-28px;right:16px;">+</a>
+  <p>Copyright Wilkinson AMP 2022</p>
+</footer>
+
+<div class="w3-container w3-theme-dark w3-xlarge">«<span class="w3-right">»</span></div>
+
+<audio id="myAudio">
+  <source src="https://drive.google.com/uc?id=1CSV6h4CmA5k-7MUr6rHS5gMdNmWw8q9t&export=download" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+
+</body>
+</html> 
+
+fa fa-play-circle-o
+
+
+
+
+

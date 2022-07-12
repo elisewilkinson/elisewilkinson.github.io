@@ -3,9 +3,30 @@ function ()
 {
   var playlist = [{
             artist: '',
+            artist: '',
             title:'DJWerd(Bangin_Cutout)',
             mp3: 'https://drive.google.com/uc?id=1gZuvMB8s8UT5BkWUcQh91g5BdOdVbYWX&export=download'
         }, {
+			artist: '',
+			title:'BBCC Footsteps On My Shoes',
+            mp3: 'https://drive.google.com/uc?id=1JoUXWBNCCtXunKLsltHlC0Ht5UjBMDZN&export=download'
+		}, { 
+		    artist: '',
+            title:'Jax Jones Tequila',
+            mp3: 'https://drive.google.com/uc?id=1ailY-qKf_VPpABIe9bQn-I15uEI09vF3&export=download'
+		}, {
+            artist:"",		
+            title:'David Guetta Memories',
+            mp3: 'https://drive.google.com/uc?id=1NgLAuau2Iglc77S_ZSAXNJAOt1YHtflE&export=download'
+		}, { 
+		    artist: '',
+            title:'24kgoldn_IannDior Mood',
+            mp3: 'https://drive.google.com/uc?id=1rMP8oqJON4RMdtgQjLAkLbbI50e2m2rL&export=download'
+        }, { 
+		     artist: '',
+			 title:'Im Still Standing',
+			 mp3: 'https://drive.google.com/uc?id=1eT4_x9x3oYBUkrJvt5UOrJy62KiYJQBc&export=download'
+        }, { 
             artist: '',
             title: 'Frida-Theres Something Going on',
             mp3: 'https://drive.google.com/uc?id=1xT5gU66AzfIaYUZL38jeIXintTTKEZLT&export=download'
@@ -27,7 +48,7 @@ function ()
             mp3: 'https://drive.google.com/uc?id=1t0OUvozRbN0GdPP74aDj2RfRle3bW8Qo&export=download'
 		}, { 
 			 artist: '',
-            title: 'Sunset Bros Im Feeling it (In The Air)',
+            title: 'Sunset Bros (In The Air)',
             mp3: 'https://drive.google.com/uc?id=1ZJGQZ1Xvy63uN9qzDWLaNwFKuzehgzdN&export=download'
         }, {
 			 artist: '',

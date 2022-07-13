@@ -3,7 +3,6 @@ function ()
 {
   var playlist = [{
             artist: '',
-            artist: '',
             title:'DJWerd(Bangin_Cutout)',
             mp3: 'https://drive.google.com/uc?id=1gZuvMB8s8UT5BkWUcQh91g5BdOdVbYWX&export=download'
         }, {
@@ -24,8 +23,8 @@ function ()
             mp3: 'https://drive.google.com/uc?id=1rMP8oqJON4RMdtgQjLAkLbbI50e2m2rL&export=download'
         }, { 
 		     artist: '',
-			 title:'Im Still Standing',
-			 mp3: 'https://drive.google.com/uc?id=1eT4_x9x3oYBUkrJvt5UOrJy62KiYJQBc&export=download'
+			 title:'Diplo-LookingforMe',
+			 mp3: 'https://drive.google.com/uc?id=1Edpw_wTeEnNCoFWXOC2Hpe4R87e1W0bd&export=download'
         }, { 
             artist: '',
             title: 'Frida-Theres Something Going on',
@@ -48,8 +47,8 @@ function ()
             mp3: 'https://drive.google.com/uc?id=1t0OUvozRbN0GdPP74aDj2RfRle3bW8Qo&export=download'
 		}, { 
 			 artist: '',
-            title: 'Sunset Bros (In The Air)',
-            mp3: 'https://drive.google.com/uc?id=1ZJGQZ1Xvy63uN9qzDWLaNwFKuzehgzdN&export=download'
+            title: 'Aitch-BussDown',
+            mp3: 'https://drive.google.com/uc?id=1fkoZ4Io9El9K6NaytAchEoxYdoI5Ux1a&export=download'
         }, {
 			 artist: '',
             title: 'Cher Turn Back Time',
@@ -66,10 +65,22 @@ function ()
 			artist: '',
             title:'Calum Scott-Where Are You Now',
             mp3: 'https://drive.google.com/uc?id=1akJzEbEWuSqd3k_Kb-PbdT56K3KvUL-C&export=download'
+		}, {	
+			artist: '',
+            title:'KatrinaWaves-WalkOnSunshine',
+            mp3: 'https://drive.google.com/uc?id=1CSV6h4CmA5k-7MUr6rHS5gMdNmWw8q9t&export=download'
+		}, {	
+			artist: '',
+            title:'CardiB-I like It',
+            mp3: 'https://drive.google.com/uc?id=1bw54bokKSA8vZ-DuUwCbVloVMJhtSN3v&export=download'
+		}, {	
+			artist: '',
+            title:'Beamerboy-TechnoRemixSwitch',
+            mp3: 'https://drive.google.com/uc?id=1i5LfGo-cdq09-Qxiodx2MQbN2lFYsHDM&export=download'
         }, {
             artist: '',
             title: 'SoundHelix-10',
-            mp3: 'https://drive.google.com/uc?id=1MSGgvZf_jlndrS0DnDvhQaTKf4TQ85q-&export=download'
+            mp3: 'https://drive.google.com/uc?id=1MSGgvZf_jlndrS0DnDvhQaTKf4TQ85q-&export=download''
      }];
 
     $.customPlayer = new CustomHTML5Player();

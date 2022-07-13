@@ -11,16 +11,55 @@
 <link rel="stylesheet" href="./style.css">
 <!-- <link rel="stylesheet" href="stylecolorchange.css"> -->
 <style>
-img {
-    max-height: 100%;
-    max-width: 100%;
-    height: 450px;
-    width: 458px;
-    position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.imagebtncontainer {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
 }
+
+.imagebtncontainer img {
+  width: 100%;
+  height: auto;
+}
+
+.imagebtncontainer .player {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.bt-play {
+ position: absolute;
+  top: 66%;
+  left: 40%;
+ } 
+ 
+ .bt-next {
+ position: absolute;
+  top: 66%;
+  left: 65%;
+ } 
+ 
+ .bt-prev {
+ position: absolute;
+  top: 66%;
+  left: 25%;
+ } 
+ 
+<!-- .name-music { -->
+<!-- position: absolute; -->
+  <!-- left: 5%; -->
+  <!-- top: 66%; -->
+  <!-- color: #000; -->
+<!-- } -->
 </style>
 </head>
 <body>
@@ -47,6 +86,8 @@ img {
       <div class="name-music-move"></div>
     </div>
     <div class="player-control">
+	<div class="imagebtncontainer">
+     <img src="C:\Users\User\Documents\w3schools\jplayer\custom-jplayer\dist\wilkAMP.png" style="width:100%">
       <a href="#" class="bt-prev"><em class="spt spt-bt-prev"></em></a>
       <a href="#" class="bt-play"><em class="spt spt-bt-play"></em></a>
       <a href="#" class="bt-next"><em class="spt spt-bt-next"></em></a>
@@ -55,7 +96,6 @@ img {
     <div class="clear"></div>
   </div>
 <!-- partial -->
-<img src="wilkAMP.png" width="458" height="454">
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/jplayer/jquery.jplayer.min.js'></script><script src="script.js"></script>

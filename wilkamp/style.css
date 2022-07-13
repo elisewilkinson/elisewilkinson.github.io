@@ -1,4 +1,4 @@
-body { background-color#666 font-family: sans-serif; font-size:13px; line-height:20px; color:#666; font-weight: 400;}
+body { background-color#666 font-family: sans-serif; font-size:13px; line-height:20px; color:#000; font-weight: 400;}
 
 .clear{clear:both !important; float:none !important; margin:0px !important; padding:0px !important; height:0px !important; width:0px !important}
 .clearfix:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
@@ -22,10 +22,10 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQsAAAApCAYA
 .spt-bt-next:hover{background-position: -207px -11px; width: 14px; height: 19px;}
 
 
-.player{ border: 3px solid #FFA500; width: 480px; margin: 100px auto 100px auto;}
+.player{ border: 0px solid #FFA500; width: 480px; margin: 100px auto 100px auto;}
 .player .player-inner{ padding: 15px 20px 25px 20px;}
 .player .spt-radio-chita{ float: left;}
-.player .name-music{ float: left; position: relative; height: 20px; overflow: hidden; background: #FFA500; width: 310px; margin: 23px 28px 0 15px}
+.player .name-music{ float: left; position: absolute; top: 71%; left: 36%; height: 30px; overflow: hidden; background: #FFA500; width: 310px; margin: 23px 28px 0 15px}
 .player .name-music .name-music-move{ position: absolute; left: 0;}
 .player .name-music .name-music-move em{ position: absolute;}
 .player .name-music .name-music-move em label{ display: block;}
@@ -36,61 +36,16 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQsAAAApCAYA
 .player .player-control .bt-play.paused:hover .spt-bt-play{ background-position: -227px 0;}
 .player .player-control .bt-next{ margin-top: 24px;}
 .player .player-control .bt-prev{ margin-top: 24px;}
+
 body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   display: grid;
   font-size: 20px;
-  color: #000;
   cursor: pointer;
   animation: gradient 15s ease infinite;
 } 
-
-.follow-me {
-  position: relative;
-  background: #fff;
-  color: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  width: 50px;
-  height: 50px;
-  position: fixed;
-  top: 50%;
-  right: 30px;
-  transform: translate(-50%);
-  text-align: center;
-  z-index: 3;
-}
-
-.follow-me::before {
-  content: "Contact me";
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  width: 150px;
-  text-align: center;
-  transform: translate(-50%);
-  background-color: #fff;
-  border-radius: 5px;
-  font-size: 15px;
-  padding: 5px;
-}
-
-.follow-me::after {
-  content: "";
-  position: absolute;
-  top: -13px;
-  left: 50%;
-  height: 0;
-  width: 0;
-  text-align: center;
-  transform: translate(-50%);
-  border-top: 10px #fff solid;
-  border-right: 10px transparent solid;
-  border-left: 10px transparent solid;
-}
+ /* color: #FFF; */
 
 @keyframes gradient {
   0% {
@@ -112,3 +67,50 @@ body {
     transform: rotate(360deg);
   }
 }
+
+/* .follow-me { */
+  /* position: relative; */
+  /* background: #fff; */
+  /* color: #000; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* border-radius: 5px; */
+  /* width: 50px; */
+  /* height: 50px; */
+  /* position: fixed; */
+  /* top: 50%; */
+  /* right: 30px; */
+  /* transform: translate(-50%); */
+  /* text-align: center; */
+  /* z-index: 3; */
+/* } */
+
+/* .follow-me::before { */
+  /* content: "Contact me"; */
+  /* position: absolute; */
+  /* top: -40px; */
+  /* left: 50%; */
+  /* width: 150px; */
+  /* text-align: center; */
+  /* transform: translate(-50%); */
+  /* background-color: #fff; */
+  /* border-radius: 5px; */
+  /* font-size: 15px; */
+  /* padding: 5px; */
+/* } */
+
+/* .follow-me::after { */
+  /* content: ""; */
+  /* position: absolute; */
+  /* top: -13px; */
+  /* left: 50%; */
+  /* height: 0; */
+  /* width: 0; */
+  /* text-align: center; */
+  /* transform: translate(-50%); */
+  /* border-top: 10px #fff solid; */
+  /* border-right: 10px transparent solid; */
+  /* border-left: 10px transparent solid; */
+/* } */
+

@@ -80,7 +80,7 @@ function ()
         }, {
             artist: '',
             title: 'SoundHelix-10',
-            mp3: 'https://drive.google.com/uc?id=1MSGgvZf_jlndrS0DnDvhQaTKf4TQ85q-&export=download''
+            mp3: 'https://drive.google.com/uc?id=1MSGgvZf_jlndrS0DnDvhQaTKf4TQ85q-&export=download'
      }];
 
     $.customPlayer = new CustomHTML5Player();

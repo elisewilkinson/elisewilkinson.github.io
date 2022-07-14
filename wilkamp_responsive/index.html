@@ -1,56 +1,201 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700&amp;display=swap">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
-    <link rel="stylesheet" href="assets/css/untitled.css">
-</head>
+  <title>WilkAmp For Mobile+Desktop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="assets/css/stylecolorchange.css">
+  <!-- <link href="assets/css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="assets/lib/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/dist/jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="assets/dist/jplayer.playlist.min.js"></script>
+  <script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
 
-<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
-    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav" style="color: rgba(255,255,255,5);padding: 0px;background: rgba(0,0,0,0.01);">
-        <div class="container"><a class="navbar-brand" href="#">wilkamp</a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item nav-link"><a class="nav-link active" href="#about">About</a></li>
-                    <li class="nav-item nav-link"></li>
-                    <li class="nav-item nav-link"></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <section class="text-center content-section" id="about"><audio class="border rounded-0 border-1 border-success d-flex d-sm-flex flex-grow-1 flex-shrink-1 justify-content-center align-items-center align-content-center align-self-center mx-auto justify-content-sm-start align-items-sm-center" controls="" style="transform: scale(1.06);--bs-primary: #dc8c42;--bs-primary-rgb: 220,140,66;--bs-success: #f59503;--bs-success-rgb: 245,149,3;--bs-body-color: #44fe02;--bs-body-bg: rgba(245,149,3,0);filter: blur(0px) grayscale(0%) hue-rotate(0deg) invert(100%) saturate(23%) sepia(96%);opacity: 1;--bs-secondary: #15f902;--bs-secondary-rgb: 21,249,2;--bs-body-font-weight: bold;--bs-light: #0def09;--bs-light-rgb: 13,239,9;margin: 400px;height: 44px;padding: 5px;">
-            <source type="audio/mpeg">
-            <source type="audio/mpeg">
-            <source type="audio/mpeg">
-        </audio><img class="img-fluid" src="assets/img/wilkampmobilegif.gif" width="458" height="454"></section>
-    <div class="map-clean"></div>
-    <footer>
-        <footer id="footerpad">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-8 mx-auto">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="material-icons fa-stack-1x fa-inverse">skip_previous</i></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="material-icons fa-stack-1x fa-inverse">play_circle_filled</i></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="material-icons fa-stack-1x fa-inverse">skip_next</i></span></a></li>
-                            <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="material-icons fa-stack-1x fa-inverse">stop</i></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <p style="color: rgb(238,151,14);font-family: Cabin, sans-serif;text-align: center;">Copyright © Wilkinson 2022</p>
-        </footer>
-    </footer>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/grayscale.js"></script>
+	new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_1",
+		cssSelectorAncestor: "#jp_container_1"
+	}, [
+		{
+			artist: '',
+            title:'DJWerd(Bangin_Cutout)',
+            mp3: 'https://drive.google.com/uc?id=1gZuvMB8s8UT5BkWUcQh91g5BdOdVbYWX&export=download'
+        }, {
+			artist: '',
+			title:'BBCC Footsteps On My Shoes',
+            mp3: 'https://drive.google.com/uc?id=1JoUXWBNCCtXunKLsltHlC0Ht5UjBMDZN&export=download'
+		}, { 
+		    artist: '',
+            title:'Jax Jones Tequila',
+            mp3: 'https://drive.google.com/uc?id=1ailY-qKf_VPpABIe9bQn-I15uEI09vF3&export=download'
+		}, {
+            artist:"",		
+            title:'David Guetta Memories',
+            mp3: 'https://drive.google.com/uc?id=1NgLAuau2Iglc77S_ZSAXNJAOt1YHtflE&export=download'
+		}, { 
+		    artist: '',
+            title:'24kgoldn_IannDior Mood',
+            mp3: 'https://drive.google.com/uc?id=1rMP8oqJON4RMdtgQjLAkLbbI50e2m2rL&export=download'
+        }, { 
+		     artist: '',
+			 title:'Diplo-LookingforMe',
+			 mp3: 'https://drive.google.com/uc?id=1Edpw_wTeEnNCoFWXOC2Hpe4R87e1W0bd&export=download'
+        }, { 
+            artist: '',
+            title: 'Frida-Theres Something Going on',
+            mp3: 'https://drive.google.com/uc?id=1xT5gU66AzfIaYUZL38jeIXintTTKEZLT&export=download'
+		}, { 
+			 artist: '',
+            title:'SunshineLiveSets_1',
+            mp3: 'https://drive.google.com/uc?id=1pkXjbDv0aGH-ktDmdmhEW3acu6Iphki1&export=download'
+        }, {
+            artist: '',
+            title:"Stranger Things Remix",
+            mp3: 'https://drive.google.com/uc?id=1rnh-bMNA-u4uNVNPBngQP5UBBb1Z7mhE&export=download'
+		}, {
+			artist: '',
+            title:'DJWerd Teenage Dream',
+            mp3: 'https://drive.google.com/uc?id=1NC1vCU03hcYWsrkq-6IZmiNoLupRRB5a&export=download'
+        }, {
+            artist: '',
+            title: 'DJWerd Dont Stop',
+            mp3: 'https://drive.google.com/uc?id=1t0OUvozRbN0GdPP74aDj2RfRle3bW8Qo&export=download'
+		}, { 
+			 artist: '',
+            title: 'Aitch-BussDown',
+            mp3: 'https://drive.google.com/uc?id=1fkoZ4Io9El9K6NaytAchEoxYdoI5Ux1a&export=download'
+        }, {
+			 artist: '',
+            title: 'Cher Turn Back Time',
+            mp3: 'https://drive.google.com/uc?id=1LGchscc9xNzX2HEHajreqnlMvV7lA8IB&export=download'
+		}, {
+            artist: '',
+            title: 'Elton John-Im Still Standing',
+            mp3: 'https://drive.google.com/uc?id=1XSgojkw4GsC0tkOsE3Qx9ddO9blvNSxX&export=download'
+		}, {
+			artist: '',
+            title:'Harry Belafonte Jump In The Line',
+            mp3: 'https://drive.google.com/uc?id=1PNfJWKIm3apv9afl0SMSTEwLt5WYanIF&export=download'
+		}, {	
+			artist: '',
+            title:'Calum Scott-Where Are You Now',
+            mp3: 'https://drive.google.com/uc?id=1akJzEbEWuSqd3k_Kb-PbdT56K3KvUL-C&export=download'
+		}, {	
+			artist: '',
+            title:'KatrinaWaves-WalkOnSunshine',
+            mp3: 'https://drive.google.com/uc?id=1CSV6h4CmA5k-7MUr6rHS5gMdNmWw8q9t&export=download'
+		}, {	
+			artist: '',
+            title:'CardiB-I like It',
+            mp3: 'https://drive.google.com/uc?id=1bw54bokKSA8vZ-DuUwCbVloVMJhtSN3v&export=download'
+		}, {	
+			artist: '',
+            title:'Beamerboy-TechnoRemixSwitch',
+            mp3: 'https://drive.google.com/uc?id=1i5LfGo-cdq09-Qxiodx2MQbN2lFYsHDM&export=download'
+        }, {
+            artist: '',
+            title: 'SoundHelix-10',
+            mp3: 'https://drive.google.com/uc?id=1MSGgvZf_jlndrS0DnDvhQaTKf4TQ85q-&export=download'
+		}
+	], {
+		swfPath: "assets/dist/jplayer",
+		supplied: "oga, mp3",
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true
+	});
+});
+//]]>
+</script>
+ <style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+body {text-align: center;}
+img {text-align: center;}
+</style>
+ </head>
+<body>
+
+<div class="p-5 bg-primary text-white text-center">
+  <h1>WilkAmp for Mobile+Desktop</h1>
+ </div>
+
+<nav class="navbar bg-light navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">WilkAMP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://elisewilkinson.github.io/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://elisewilkinson.github.io/login/">Login</a>
+        </li>
+       </li>    
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-5">
+   <img src="https://elisewilkinson.github.io/wilkamp/wilkAMP.png">
+  </div>
+<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+	<div class="jp-type-playlist">
+		<div class="jp-gui jp-interface">
+			<div class="jp-controls" style="margin-left:25%">
+				<button class="jp-previous" role="button" tabindex="0"><i class="fa fa-backward"></i></button>
+				<button class="jp-play" role="button" tabindex="0"><i class="fa fa-play"></i></button>
+				<button class="jp-next" role="button" tabindex="0"><i class="fa fa-forward"></i></button>
+				<button class="jp-stop" role="button" tabindex="0"><i class="fa fa-stop"></i></button>
+			</div>
+			<div class="jp-progress">
+				<div class="jp-seek-bar">
+					<div class="jp-play-bar"></div>
+				</div>
+			</div>
+			<div class="jp-volume-controls">
+				<button class="jp-mute" role="button" tabindex="0">mute</button>
+				<button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+				<div class="jp-volume-bar">
+					<div class="jp-volume-bar-value"></div>
+				</div>
+			</div>
+			<div class="jp-time-holder">
+				<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+				<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+			</div>
+			<div class="jp-toggles>
+				<button class="jp-repeat" role="button" tabindex="0">repeat</button>
+				<button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+			</div>
+		</div>
+		<div class="jp-playlist">
+			<ul>
+				<li>&nbsp;</li>
+			</ul>
+		</div>
+		<div class="jp-no-solution">
+			<span>Update Required</span>
+			To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+		</div>
+	</div>
+
+<div class="mt-5 p-4 bg-secondary text-white text-center">
+  <p>Copyright Wilkinson AMP 2022</p>
+</div>
+
 </body>
-
 </html>
+

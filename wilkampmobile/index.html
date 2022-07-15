@@ -170,6 +170,76 @@ img {text-align: center;}
   width: 100%;
   background-color: #ccc;
   border-top: 1px solid #009be3;
+
+.jp-type-playlist .jp-details,
+.jp-type-single .jp-details {
+  border-top: none;
+}
+.jp-details .jp-title {
+  margin: 0;
+  padding: 5px 20px;
+  font-size: 0.72em;
+  font-weight: 700;
+}
+.jp-playlist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 20px;
+  font-size: 0.72em;
+}
+.jp-playlist li {
+  padding: 5px 0 4px 20px;
+  border-bottom: 1px solid #eee;
+}
+.jp-playlist li div {
+  display: inline;
+}
+div.jp-type-playlist div.jp-playlist li:last-child {
+  padding: 5px 0 5px 20px;
+  border-bottom: none;
+}
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
+  list-style-type: square;
+  list-style-position: inside;
+  padding-left: 7px;
+}
+div.jp-type-playlist div.jp-playlist a {
+  color: #333;
+  text-decoration: none;
+}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-current,
+
+div.jp-type-playlist div.jp-playlist a:hover {
+  color: #0d88c1;
+}
+
+	div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
+  float: right;
+  display: inline;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: 700;
+  color: #666;
+}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove:hover {
+  color: #0d88c1;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media {
+  float: right;
+  display: inline;
+  text-align: right;
+  margin-right: 10px;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media a {
+  color: #666;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media a:hover {
+  color: #0d88c1;
+}
+span.jp-artist {
+  font-size: 0.8em;
+  color: #666;
+}
 </style>
 </head>
 <body style="max-width:400px;margin:8px;border:10px solid #018BD3">

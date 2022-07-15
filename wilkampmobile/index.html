@@ -83,7 +83,7 @@ $(document).ready(function(){
 			artist: '',
             title:'Calum Scott-Where Are You Now',
             mp3: 'https://drive.google.com/uc?id=1akJzEbEWuSqd3k_Kb-PbdT56K3KvUL-C&export=download'
-	        }, {	
+		}, {	
 			artist: '',
             title:'KatrinaWaves-WalkOnSunshine',
             mp3: 'https://drive.google.com/uc?id=1CSV6h4CmA5k-7MUr6rHS5gMdNmWw8q9t&export=download'
@@ -91,14 +91,6 @@ $(document).ready(function(){
 			artist: '',
             title:'CardiB-I like It',
             mp3: 'https://drive.google.com/uc?id=1bw54bokKSA8vZ-DuUwCbVloVMJhtSN3v&export=download'
-		}, {	
-			artist: '',
-            title:'Sigrid New',
-            mp3: 'https://drive.google.com/uc?id=1S6zZt0RbU90eQKXFi0ERkBcWFne9y4cz&export=download'
-		}, {	
-			artist: '',
-            title:'BBCC BMW',
-            mp3: 'https://drive.google.com/uc?id=1TAHqO43fhfCcebfwC9RrzymdJ-vewLJE&export=download'
 		}, {	
 			artist: '',
             title:'Beamerboy-TechnoRemixSwitch',
@@ -181,11 +173,11 @@ img {text-align: center;}
      <h1>WILKAMP</h1>
     </header>
 	
-<div class="w3-container">
+<div class="w3-container">  
     <img src="https://elisewilkinson.github.io/wilkampmobile/wilkampmobilegif.gif" style="width:100%">
      <button class="jp-previous" role="button" tabindex="0"><i class="fa fa-backward"></i></button>
-     <button class="jp-play" role="button" tabindex="0"><i class="fa fa-play"></i></button>
-     <button class="jp-next" role="button" tabindex="0"><i class="fa fa-forward"></i></button>
+     <button class="jp-play"></button><i class="fa fa-play"></i></button>
+     <button class="jp-next"></button><i class="fa fa-forward"></i></button>
   </div>
 <div id="jquery_jplayer_1" class="jp-jplayer"></div>
 <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
@@ -228,6 +220,10 @@ img {text-align: center;}
 			To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
 		</div>
 	</div>
+	<div class="container">
+  <button class="jp-play">Play</button>
+  <button class="jp-next">Next</button>
+</div>
   <footer class="w3-container w3-blue">
   <p>Copyright Wilkinson AMP 2022</p>
 </footer>

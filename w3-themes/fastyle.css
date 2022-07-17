@@ -91,7 +91,16 @@ hr{
 	-o-transform: scale(1.1) rotate(360deg);
 	transform: scale(1.1) rotate(360deg);
 }
- 
+
+/* .fa-cog {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+}
+  */
 .social-icons .fa-backward{background-color:#504e54;} 
 .social-icons .fa-play{background-color:#aeb5c5;} 
 .social-icons .fa-forward{background-color:#018BD3;}  

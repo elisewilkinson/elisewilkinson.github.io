@@ -48,9 +48,9 @@ hr{
 }
 /*Change icons circle size and color here*/
 .social-icons .fa {
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
 	text-align: center;
 	color: #FFF;
 	color: rgba(255, 255, 255, 0.8);
@@ -92,7 +92,7 @@ hr{
 	transform: scale(1.1) rotate(360deg);
 }
  
- .social-icons .fa-backward{background-color:#504e54;} 
+.social-icons .fa-backward{background-color:#504e54;} 
 .social-icons .fa-play{background-color:#aeb5c5;} 
 .social-icons .fa-forward{background-color:#018BD3;}  
 .social-icons .fa-stop{background-color:#F7931A;} 
@@ -113,6 +113,7 @@ hr{
 .social-icons .fa-html5{background-color:#E54D26;}
 .social-icons .fa-instagram{background-color:#018BD3;}
 .social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;} 
+.social-icons .fa-snapchat{background-color:#E6E600;}
 .social-icons .fa-linux{background-color:#FBC002;color:#333;}
 .social-icons .fa-maxcdn{background-color:#F6AE1C;}
 .social-icons .fa-pagelines{background-color:#241E20;color:#3984EA;}

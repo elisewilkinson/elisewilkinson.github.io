@@ -132,6 +132,9 @@ a {
 <video controls width="640" height="480">
 <source src="https://onedrive.live.com/download?cid=C8377620C1F00118&resid=C8377620C1F00118%211403&authkey=AJk4I-wEvuk6OaY" type="video/mp4">
 </video>
+<audio id="myAudio">
+<source src="button3.mp3" type="audio/mpeg">
+</audio>
 <footer class="mastfoot my-3 w3-theme-l2">
         <div class="container">
             <div class="row">
@@ -141,14 +144,24 @@ a {
                         <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
                         <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
 						<li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-snapchat fa-stack-1x fa-inverse"></i></span></a></li>
-						<li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse fa-spin"></i></span></a></li>
+						<li button class="list-inline-item" onclick="playAudio()" type="button"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse fa-spin"></i></span></a></li>
                     </ul>
                     <p class="copyright text-muted text-center">Copyright © Wilkinson 2022 | Last Updated 16/07/22</p>
                 </div>
             </div>
         </div>
     </footer>
+<script>
+var x = document.getElementById("myAudio"); 
 
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
 </body>
 
 </html>

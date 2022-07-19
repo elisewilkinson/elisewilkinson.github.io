@@ -2,8 +2,7 @@ body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   display: grid;
-  font-size: 20px;
-  color: #FFF;
+  color: #000;
   cursor: pointer;
   animation: gradient 15s ease infinite;
 } 

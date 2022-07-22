@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkjouwweb=self.webpackChunkjouwweb||[]).push([[371],{96681:function(n,u,e){e.r(u);var o=e(9758),c=document.querySelectorAll(".jw-element-audio audio"),a=[];c.forEach((function(n){return a.push(new o.Z(n))})),a.forEach((function(n){n.on("play",(function(){a.forEach((function(u){n!==u&&u.playing&&u.pause()}))}))}))},9758:function(n,u,e){var o=e(63679),c=e.n(o);u.Z=c()}}]);
+//# sourceMappingURL=element-audio.dc01914a8652f36b0fc9.js.map

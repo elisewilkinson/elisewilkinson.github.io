@@ -33,19 +33,19 @@ $(function () {
 	  "DJ Scotty",
       "Milky Remix",
       "Beamer Boy",
-      "Electro Boy",
-      "Home",
-      "Proxy (Original Mix)",
-	  "Milky Remix"  
+      "Classic Bangers",
+      "Classic Bangers",
+      "Clarkee",
+	  "DJ Werd"  
     ],
     trackNames = [
 	  "Summer Vol - 2",
       "blk. - Just The Way You Are",
       "Lil Peep - Techno Remix",
-      "Kaaze - Electro Boy",
-      "Jordan Schor - Home",
-      "Martin Garrix - Proxy",
-	  "blk. - Just The Way You Are"
+      "Kesha - Tik Tok",
+      "Just Came To Say - Hello",
+      "Clarkee - Chillin",
+	  "DJWerd - Think I'm Pretty"
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7"],
     trackUrl = [

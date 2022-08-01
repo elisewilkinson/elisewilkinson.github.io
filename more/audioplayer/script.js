@@ -30,6 +30,7 @@ $(function () {
     buffInterval = null,
     tFlag = false,
     albums = [
+	  "DJ Scotty",
       "Milky Remix",
       "Beamer Boy",
       "Electro Boy",
@@ -38,6 +39,7 @@ $(function () {
 	  "Milky Remix"  
     ],
     trackNames = [
+	  "Summer Vol - 2",
       "blk. - Just The Way You Are",
       "Lil Peep - Techno Remix",
       "Kaaze - Electro Boy",
@@ -45,8 +47,9 @@ $(function () {
       "Martin Garrix - Proxy",
 	  "blk. - Just The Way You Are"
     ],
-    albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6"],
+    albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7"],
     trackUrl = [
+	  "tinyurl.com/dw040880/music/djscotty1.mp3"
       "tinyurl.com/dw040880/music/milky.mp3",
       "tinyurl.com/dw040880/music/beamerboyswitch.mp3",
       "tinyurl.com/dw040880/music/keshatiktok.mp3",

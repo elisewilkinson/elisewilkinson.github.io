@@ -30,16 +30,16 @@ $(function () {
     buffInterval = null,
     tFlag = false,
     albums = [
-      "Dawn",
-      "Me & You",
+      "Milky Remix",
+      "Beamer Boy",
       "Electro Boy",
       "Home",
       "Proxy (Original Mix)",
 	  "Milky Remix"  
     ],
     trackNames = [
-      "Skylike - Dawn",
-      "Alex Skrindo - Me & You",
+      "blk. - Just The Way You Are",
+      "Lil Peep - Techno Remix",
       "Kaaze - Electro Boy",
       "Jordan Schor - Home",
       "Martin Garrix - Proxy",
@@ -47,12 +47,12 @@ $(function () {
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6"],
     trackUrl = [
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/2.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/1.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3",
-	  "https://storage.googleapis.com/jw-image-storage/plugin-audio/73f935f4d2ed4145543fbaf8c3743cdb7c4c43f8"
+      "tinyurl.com/dw040880/music/milky.mp3",
+      "tinyurl.com/dw040880/music/beamerboyswitch.mp3",
+      "tinyurl.com/dw040880/music/keshatiktok.mp3",
+      "tinyurl.com/dw040880/music/sayhello.mp3",
+      "tinyurl.com/dw040880/music/clarkee1.mp3",
+	  "tinyurl.com/dw040880/music/djwerdthinkimpretty.mp3"
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
@@ -251,3 +251,4 @@ $(function () {
 
   initPlayer();
 });
+

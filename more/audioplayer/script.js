@@ -58,7 +58,7 @@ $(function () {
 	  "https://tinyurl.com/dw040880/music/djscotty2.mp3",
 	  "https://tinyurl.com/dw040880/music/classicbangers2.mp3",
 	  "https://tinyurl.com/dw040880/music/classicbangers3.mp3",
-	  "https://tinyurl.com/dw040880/music/rapidfirecutout.mp3"
+	  "https://roxi.wilkinsonwebsite.uk/music/rapidfirecutout.mp3"
 	  
     ],
     playPreviousTrackButton = $("#play-previous"),

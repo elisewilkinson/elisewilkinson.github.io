@@ -36,7 +36,9 @@ $(function () {
       "Classic Bangers",
       "Classic Bangers",
       "Clarkee",
-	  "DJ Werd"  
+	  "DJ Scotty", 
+	  "Classic Bangers2",
+	  "Rapid Fire"
     ],
     trackNames = [
 	  "Summer Vol - 2",
@@ -45,7 +47,9 @@ $(function () {
       "Kesha - Tik Tok",
       "Just Came To Say - Hello",
       "Clarkee - Chillin",
-	  "DJWerd - Think I'm Pretty"
+	  "Ava - Max",
+	  "Call Me Maybe",
+	  "Cutout"
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10"],
     trackUrl = [

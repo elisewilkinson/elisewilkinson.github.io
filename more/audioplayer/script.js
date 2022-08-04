@@ -38,6 +38,7 @@ $(function () {
       "Clarkee",
 	  "DJ Scotty", 
 	  "Classic Bangers2",
+	   "Classic Bangers3",
 	  "Rapid Fire"
     ],
     trackNames = [
@@ -47,6 +48,7 @@ $(function () {
       "Kesha - Tik Tok",
       "Just Came To Say - Hello",
       "Clarkee - Chillin",
+	  "Supreme",
 	  "Ava - Max",
 	  "Call Me Maybe",
 	  "Cutout"

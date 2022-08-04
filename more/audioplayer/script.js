@@ -50,9 +50,9 @@ $(function () {
     albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10"],
     trackUrl = [
 	  "https://tinyurl.com/dw040880/music/djscotty1.mp3",
-      "https://tinyurl.com/dw040880/music/milky.mp3",
-      "https://tinyurl.com/dw040880/music/beamerboyswitch.mp3",
-      "https://tinyurl.com/dw040880/music/keshatiktok.mp3",
+      "https://roxi.wilkinsonwebsite.uk/music/milky.mp3",
+      "https://roxi.wilkinsonwebsite.uk/music/beamerboyswitch.mp3",
+      "https://roxi.wilkinsonwebsite.uk/music/keshatiktok.mp3",
       "https://tinyurl.com/dw040880/music/sayhello.mp3",
       "https://tinyurl.com/dw040880/music/clarkee1.mp3",
 	  "https://tinyurl.com/dw040880/music/djscotty2.mp3",

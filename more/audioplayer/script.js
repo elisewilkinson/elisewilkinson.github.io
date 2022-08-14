@@ -55,7 +55,7 @@ $(function () {
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10"],
     trackUrl = [
-	  "https://roxi.wilkinsonwebsite.uk/music/djscotty1.mp3",
+	  "https://www.brizy.cloud/customfile/7188aad3cb6d72d43bba2d43e9d8bbb2.mp3",
           "https://tinyurl.com/dw040880/music/milky.mp3",
           "https://tinyurl.com/dw040880/music/beamerboyswitch.mp3",
           "https://roxi.wilkinsonwebsite.uk/music/keshatiktok.mp3",

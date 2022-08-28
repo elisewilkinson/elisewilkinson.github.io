@@ -30,7 +30,7 @@ $(function () {
     buffInterval = null,
     tFlag = false,
     albums = [
-	  "DJ Scotty",
+	  "Venga",
       "Milky Remix",
       "Beamer Boy",
       "Classic Bangers",
@@ -39,7 +39,8 @@ $(function () {
 	  "DJ Scotty", 
 	  "Classic Bangers2",
 	   "Classic Bangers3",
-	  "Rapid Fire"
+	  "Rapid Fire",
+	   "Playboi"
     ],
     trackNames = [
 	  "Summer Vol - 2",
@@ -51,9 +52,10 @@ $(function () {
 	  "Supreme",
 	  "Ava - Max",
 	  "Call Me Maybe",
-	  "Cutout"
+	  "Cutout",
+	   "Jaded"
     ],
-    albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10"],
+    albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10", "_11"],
     trackUrl = [
 	  "https://www.brizy.cloud/customfile/7188aad3cb6d72d43bba2d43e9d8bbb2.mp3",
           "https://tinyurl.com/dw040880/music/milky.mp3",
@@ -64,7 +66,8 @@ $(function () {
 	  "https://tinyurl.com/dw040880/music/djscotty2.mp3",
 	  "https://roxi.wilkinsonwebsite.uk/music/classicbangers2.mp3",
 	  "https://roxi.wilkinsonwebsite.uk/music/classicbangers3.mp3",
-	  "https://roxi.wilkinsonwebsite.uk/music/rapidfirecutout.mp3"
+	  "https://roxi.wilkinsonwebsite.uk/music/rapidfirecutout.mp3",
+	  "https://www.brizy.cloud/customfile/7188aad3cb6d72d43bba2d43e9d8bbb2.mp3"
 	  
     ],
     playPreviousTrackButton = $("#play-previous"),
